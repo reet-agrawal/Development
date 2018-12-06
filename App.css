@@ -1,0 +1,13 @@
+
+#gameBox {
+  background-color: #D8BFD8;
+  display: flex;
+
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+
+#typeDropdown {
+  margin: 40px;
+}

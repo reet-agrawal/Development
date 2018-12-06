@@ -1,0 +1,10 @@
+README DEVELOPMENT
+
+Please navigate to the "development" folder and run "npm start" to run the app. 
+
+This app has been created to act as a directory for board games. This can be useful for people who want to browse through a list of different kinds of games and find out the ones that might suit them the best. The app lists numerous games and uses dropdown filters and buttons for sorting. Users can filter based on the genre of the game or the number of players that are required to play the game. This can be useful when users are trying to figure out what's best for them. 
+
+This app employs user principles of learnability, memorability, usability and accessibility. It is easily learnable as there are not an overwhelming amount of features present. The features (dropdown menu and button) are easy to use and intuitive hence memorable for the user. There is a componenent of usability and accessiblity because the input features are clearly spaced and are easy to see. Their result and feedback is also immediate, making the actions more memorable. The background color adds a visual feature that makes it more appealing to look at. Overall, the simplicity of this program makes it easy to use, non-overwhelming and minimalistic.
+
+The app makes use of React Components to organize data in a more categorical manner. There are four main components used- App, Filter, List and Header. The Header holds the primary text for the app can passes it to the App class for rendering. The List class is used to render the list at a higher level and under that, Filter is contained. Filter contains the main functionality. It uses properties from App to filter the list of games and sort it alphabetically.  
+
